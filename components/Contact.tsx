@@ -24,11 +24,10 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setLoading(true);
 
-    // REPLACE THESE WITH YOUR ACTUAL EMAILJS CREDENTIALS
-    // You can get these from https://dashboard.emailjs.com/
-    const SERVICE_ID = 'YOUR_SERVICE_ID';
-    const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-    const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+    // EmailJS Credentials
+    const SERVICE_ID = 'service_ur3go8p';
+    const TEMPLATE_ID = 'template_r0nmyc8';
+    const PUBLIC_KEY = 'a_Pk8nzzaccfT8DgB';
 
     if (formRef.current) {
       emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
