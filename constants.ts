@@ -38,18 +38,35 @@ export const EXPERIENCE: ExperienceItem[] = [
     company: 'Freelance / Personal Projects',
     duration: '2022 — Present',
     description: [
-      'Completed a Solana internship focusing on hands-on development, wallet integration, and on-chain queries.',
-      'Attended a Sui developer event gaining exposure to Sui ecosystem tooling and dev practices.',
-      'Launched multiple tokens on testnets including "Suiedo" and "Sololeving".',
-      'Building a Solana DAO Dashboard with emphasis on decentralization and tooling.',
-      'Participated in Solana Superteam bounties and contributed to community guides.'
+      'Building a Solana DAO Dashboard focusing on decentralization and tooling.',
+      'Implemented a multi-page React + Tailwind + Flask news/info site (dark mode, animations, category filters, localStorage).',
+      'Developed 3D interactive UI concepts (rotating memory-card carousel).',
+      'Launched multiple tokens on testnets: Suiedo and Sololeving (meme coin experiments).',
+      'Participated in Solana Superteam bounties and developer programs; completed tasks and contributed to community guides.',
+      'Completed HeySolana internship (hands-on development, a voice command wallet integration, on-chain queries).',
+      'Student in Solana Turbin3 program by Jeff Paul.',
+      'Attended a Sui developer event — gained exposure to Sui ecosystem tooling.',
+      'Contributed to Botanix Labs Spiderchain testnet.'
     ],
     highlight: true
   },
   {
     id: '2',
-    role: 'Crypto Community Builder',
+    role: 'Business Developer',
     company: 'Victus Global',
+    duration: '2022 — Present',
+    description: [
+      'Oversee project outreach, partnerships, and market-making initiatives.',
+      'Conduct pre-launch communication with Web3 projects.',
+      'Guide projects on liquidity support, TGE readiness, and strategic advisory.',
+      'Manage professional messaging and content for crypto communities.'
+    ],
+    highlight: false
+  },
+  {
+    id: '3',
+    role: 'Crypto Community Builder',
+    company: '',
     duration: '2022 — Present',
     description: [
       'Creating daily educational Web3 content and guiding beginners via "$0 → $100 Crypto Pathway".',
@@ -58,7 +75,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     ]
   },
   {
-    id: '3',
+    id: '4',
     role: 'ICT Studio Manager',
     company: 'Church Media & Technology Unit',
     duration: '2021 — Present',
